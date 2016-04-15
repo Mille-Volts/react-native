@@ -53,7 +53,7 @@ const MapView = React.createClass({
      * If `true` the app will ask for the user's location and display it on
      * the map. Default value is `false`.
      *
-     * **NOTE**: on iOS, you need to add the `NSLocationWhenInUseUsageDescription`
+     * **NOTE**: on iOS, you need to add the `NSLocationWhenInUseUsageDescription` or `NSLocationAlwaysUsageDescription`
      * key in Info.plist to enable geolocation, otherwise it will fail silently.
      */
     showsUserLocation: React.PropTypes.bool,
